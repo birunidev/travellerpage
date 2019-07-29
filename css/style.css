@@ -1,0 +1,254 @@
+body {
+    font-family: 'Work Sans';
+    text-align: center;
+}
+
+/* All Version */
+footer {
+    background-color: #61A9B7;
+    margin: 0;
+    margin-top: -35px;
+    padding: 10px;
+}
+
+footer p {
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Headline */
+.jumbotron {
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+    height: 340px;
+
+}
+
+.jumbotron .display-4 {
+    color: rgb(241, 241, 241);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.jumbotron .lead {
+    color: rgb(241, 241, 241);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* About section */
+
+/* Navbar CSS */
+.nav-link {
+    color: rgb(97, 97, 97);
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+
+nav {
+
+    -webkit-box-shadow: 0px 18px 20px -21px rgba(138, 138, 138, 1);
+    -moz-box-shadow: 0px 18px 20px -21px rgba(138, 138, 138, 1);
+    box-shadow: 0px 18px 20px -21px rgba(138, 138, 138, 1);
+
+
+}
+
+nav button {
+    color: #61A9B7 !important;
+}
+
+nav span i {
+    color: #61A9B7 !important;
+}
+
+#about-john {
+    text-align: center !important;
+}
+
+
+/* Navbar CSS end */
+
+/* Utility */
+.container p {
+    color: #9E9E9E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container h2 {
+    color: #61A9B7;
+    font-size: 35px;
+    font-weight: 400;
+
+}
+
+.container h3 {
+    color: #61A9B7;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.container h5 {
+    color: #61A9B7;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: #61A9B7;
+    color: rgb(243, 243, 243);
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(83, 147, 160);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+/* Utility */
+
+/* Blog Customize */
+
+.container .blog .card {
+    border: 2px solid #61A9B7;
+    border-radius: 20px;
+}
+
+.container .blog .card img {
+    border-radius: 20px;
+}
+
+/* Blog Customize */
+
+/* About */
+.about {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.about .jumbotron {
+    background-image: url(../images/contact.jpg);
+    height: 500px;
+    background-size: cover;
+    border-radius: 0px;
+}
+
+.about .about-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position: center;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.about .about-box h2 {
+    color: #61A9B7;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 10px;
+}
+
+.about .about-box label {
+    color: #61A9B7;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.about .about-box input {
+    color: #61A9B7;
+}
+
+
+
+
+
+
+
+
+/* desktop version */
+@media (min-width: 992px) {
+    .nav-link {
+        margin-right: 35px;
+    }
+
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #61A9B7;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .active a::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #61A9B7;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .jumbotron {
+        height: 500px;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: 120px;
+        font-size: 70px;
+    }
+
+    .jumbotron .lead {
+        font-size: 30px;
+    }
+
+
+    .about .about-box {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: -990px; */
+        position: relative;
+        padding: 10px;
+    }
+
+    .about .about-box .form-control {
+        padding-right: 30px;
+    }
+
+    .john {
+        font-size: 40px !important;
+        text-align: left;
+    }
+
+    .john-about {
+        text-align: left !important;
+    }
+
+    .contact img {
+        width: 60%;
+    }
+
+    #about-john {
+        text-align: left !important;
+    }
+
+
+}

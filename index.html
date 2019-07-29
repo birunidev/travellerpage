@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+
+<body id="home">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="d-inline-block align-top img-fluid" alt="">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars fa-1x"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="#home">home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">about</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link scroll" href="#blog">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact" tabindex="-1" aria-disabled="true">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 "> Traveller <br> Notes </h1>
+            <p class="lead">Travel is about finding yourself</p>
+        </div>
+    </div>
+    <!-- Jumbotron end -->
+    <!-- Main Content  -->
+    <div id="about" class="container ">
+        <div class="row my-4 contact">
+            <div class="col-md-12">
+                <h2 class="font-weight-normal text-center">About</h2>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="images/3697.png" class="img-fluid" alt="John's Picture">
+            </div>
+            <div class="col-md-6">
+                <h3 class="john">John Doe</h3>
+                <p id="about-john" class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+                    pharetra posuere
+                    nibh, vitae
+                    aliquet purus eleifend non. Curabitur eu sem consequat, sodales massa vel, tincidunt tortor.
+                    In volutpat velit sed lectus mattis, vitae finibus neque elementum. Donec aliquet felis nec augue
+                    vulputate, id iaculis ipsum ultrices. Donec ac porttitor enim. In id libero nisi.</p>
+            </div>
+        </div>
+        <!-- Blog -->
+        <div id="blog" class="row my-4 blog">
+            <div class="col-md-12">
+                <h2 class="font-weight-normal text-center">Blog</h2>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="images/rendang.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Best Indonesia Traditional Food</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn ">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="images/sapi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Best Indonesia Traditional Food</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn ">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img src="images/mount.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Best Indonesia Traditional Food</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn ">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+    </div>
+
+
+    <div id="contact" class="container-fluid about">
+        <div class="jumbotron">
+            <div class="row my-3 about-box mt-n3">
+
+                <div class="col-md-12">
+                    <h2 class="font-weight-normal text-center">Contact Me</h2>
+                </div>
+                <div class="col-md-12 mr-auto text-left">
+                    <form id="form">
+                        <div class="form-group ">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                                placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter your email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn"><i class="fab fa-telegram-plane"></i> Send</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <p>Copyright: travelnotes.com</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var scrollLink = $('.scroll');
+
+            // Smooth scrolling
+            scrollLink.click(function (e) {
+                e.preventDefault();
+                $('body,html').animate({
+                    scrollTop: $(this.hash).offset().top - 103
+                }, 1000);
+            });
+
+            // Active link switching
+            $(window).scroll(function () {
+                var scrollbarLocation = $(this).scrollTop();
+
+                scrollLink.each(function () {
+
+                    var sectionOffset = $(this.hash).offset().top - 103;
+
+                    if (sectionOffset <= scrollbarLocation) {
+                        $(this).parent().addClass('active');
+                        $(this).parent().siblings().removeClass('active');
+                    }
+                })
+
+            })
+
+        })
+    </script>
+</body>
+
+
+</html>
